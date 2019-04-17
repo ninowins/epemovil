@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><h3>Promedio:</h3></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Ingrese la nota de su examen</ion-label>
+    <ion-input [(ngModel)]="exam32"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-button color="success" (click)="promfexam32()">
+      <h4>Calcular</h4>
+    </ion-button>
+  </ion-item>
+
+  <ion-button size="default" expand="expand" (click)="irHome()">Volver</ion-button>
+  <ion-button size="default" expand="expand" (click)="irMenu()">Inicio</ion-button>
+</ion-content>

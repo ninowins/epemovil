@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><h3>Promedio:</h3></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input [(ngModel)]="epe1">EPE1 : </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="epe2">EPE2 : </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="epe3">EPE3 : </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="epe4">EPE4 : </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="eva1">EVA1 : </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="eva2">EVA2 : </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="eva3">EVA3 : </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="eva4">EVA4 : </ion-input>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-button color="success" (click)="cal96()">
+      <h4>Calcular</h4>
+    </ion-button>
+  </ion-item>
+
+  <ion-button size="default" expand="expand" (click)="irHome()">Volver</ion-button>
+  <ion-button size="default" expand="expand" (click)="irMenu()">Inicio</ion-button>
+</ion-content>

@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><h1>Menu</h1></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar>
+      <ion-buttons slot="secondary">
+      <ion-button (click)="irAcerca()"> 
+        <ion-icon slot="icon-only" name="contact"></ion-icon>
+      </ion-button>      
+    </ion-buttons>
+    </ion-toolbar>
+
+   <h2>Seleccione una Asignatura:</h2>
+   
+    <ion-list>
+        <ion-item>
+          <ion-button size="default" expand="expand" (click)="irHome()">Redes Wan</ion-button>
+        </ion-item>
+        <ion-item>
+            <ion-button  size="default" expand="expand" (click)="irHome()">Evaluacion de <br>Proyectos</ion-button>
+        </ion-item>
+        <ion-item>
+            <ion-button size="default" expand="expand" (click)="irHome()">Programación de <br>Aplicaciones Moviles</ion-button>
+        </ion-item>
+        <ion-item>
+            <ion-button size="default" expand="expand" (click)="irHome()">Gestion de Recursos <br>Humanos</ion-button>
+        </ion-item>
+        <ion-item>
+          <ion-button size="default" expand="expand" (click)="irHome()">Administracion Y <br>Gestion de Empresas</ion-button>
+        </ion-item>
+      </ion-list>
+  
+</ion-content>

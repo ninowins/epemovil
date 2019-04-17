@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <h2>Calcular:</h2>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!--
+  <ion-item>
+    <ion-input [(ngModel)]="texto"></ion-input> 
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="texto2"></ion-input>
+  </ion-item>
+<ion-item>
+  <ion-input [(ngModel)]="texto3"></ion-input>
+</ion-item>
+-->
+    <h3>Seleccione la forma de calcular sus evaluaciones:</h3>
+<ion-item>
+  <ion-button size="default" color="success"(click)="irnoexam()"><h4>Promedio</h4></ion-button>
+</ion-item>
+<ion-item>
+    <ion-button size="default" color="success"(click)="irexam()"><h4>Promedio + Examen</h4></ion-button>
+  </ion-item>
+
+  <ion-item>
+      <ion-button size="default" expand="expand" (click)="irMenu()">Volver</ion-button>
+    
+  </ion-item>
+</ion-content>
